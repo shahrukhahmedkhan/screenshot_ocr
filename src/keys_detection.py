@@ -89,7 +89,6 @@ template_paths = [os.getcwd() + '/keys_det_temp/' + 'key_template.jpeg',
 
 # Convert images to grayscale
 keyboard_gray = cv2.cvtColor(keyboard, cv2.COLOR_BGR2GRAY)
-# template_gray = cv2.cvtColor(template, cv2.COLOR_BGR2GRAY)
 threshold = 0.9
 # Loop over each template
 for template_path in template_paths:

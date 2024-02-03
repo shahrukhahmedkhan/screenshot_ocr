@@ -1,6 +1,7 @@
+from pathlib import Path
+
 import cv2
 import numpy as np
-from pathlib import Path
 
 path = str(Path(__file__).parents[0])
 

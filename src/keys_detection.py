@@ -2,7 +2,7 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-
+import pyautogui
 path = str(Path(__file__).parents[0])
 
 # Load the keyboard and template images
